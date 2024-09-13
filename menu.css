@@ -1,0 +1,48 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Set background color */
+}
+
+.container {
+    width: 90%; /* Set container width */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Header styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative; /* Add position relative */
+}
+
+#nav ul li a .glyphicon {
+    font-size: 20px; /* Set initial icon size */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+#nav ul li a:hover .glyphicon {
+    color: #ffd700; /* Change color on hover */
+    font-size: 24px; /* Enlarge icon size on hover */
+}
